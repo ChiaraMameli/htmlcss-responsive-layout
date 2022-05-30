@@ -44,6 +44,10 @@
     text-align: center;
 }
 
+.txt-white {
+    color: #FFF;
+}
+
 /* DEMO */
 
 #demo .card {
@@ -51,11 +55,12 @@
 }
 
 /* PLANNING */
-
+#benefits,
 #planning {
     background-color: #9792E4;
 }
 
+#benefits .card,
 #planning .card {
     background-color: #FFF;
 }
@@ -78,6 +83,10 @@
         width: calc(100% / 3 * 2); 
     }
 
+    #benefits .col {
+        width: calc(100% / 2);
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -93,4 +102,9 @@
     #planning .container {
         padding: 30px 30px 30px 30px;
     }
+
+    #benefits .col {
+        width: calc(100% / 3);
+    }
+
 }
