@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    padding-top: 60px;
+}
+
 /* UTILS */
 
 .container {
@@ -46,6 +50,34 @@
 
 .txt-white {
     color: #FFF;
+}
+
+/* HEADER */
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    background-color: #2083F7;
+}
+
+header .row {
+    min-height: 60px;
+    align-items: center;
+    padding: 0 30px;
+}
+
+header .list {
+    list-style-type: none;
+    justify-content: space-between;
+
+    display: none;
+}
+
+header li {
+    padding-left: 10px;
 }
 
 /* DEMO */
@@ -124,4 +156,15 @@
         width: 40%;
     }
 
+    .hamburger {
+        display: none;
+    }
+
+    header .list {
+        display: flex;
+    }
+    
+    header .row{
+        padding-right: 0;
+    }
 }
