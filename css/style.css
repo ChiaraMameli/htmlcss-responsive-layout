@@ -50,6 +50,7 @@
 
 /* DEMO */
 
+#about-us .card,
 #demo .card {
     background-color: #B5DDFB;
 }
@@ -67,10 +68,16 @@
 
 /* TESTIMONIALS  */
 
+#start,
 #testimonials .card {
     background-color: #9792E4;
 }
 
+/* START */
+
+#start {
+    padding: 30px;
+}
 
 /* MEDIA QUERIES */
 
@@ -83,10 +90,15 @@
         width: calc(100% / 3 * 2); 
     }
 
+    #about-us .col,
     #benefits .col {
         width: calc(100% / 2);
     }
 
+    .small-container {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -99,12 +111,17 @@
         width: calc(100% / 2);
     }
 
+    #about-us .container,
     #planning .container {
         padding: 30px 30px 30px 30px;
     }
 
     #benefits .col {
         width: calc(100% / 3);
+    }
+
+    .small-container {
+        width: 40%;
     }
 
 }
