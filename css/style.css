@@ -107,8 +107,16 @@ header li {
 
 /* START */
 
+footer,
 #start {
     padding: 30px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333333;
 }
 
 /* MEDIA QUERIES */
@@ -130,6 +138,10 @@ header li {
     .small-container {
         width: 80%;
         margin: 0 auto;
+    }
+
+    footer {
+        padding: 30px 100px;
     }
 }
 
