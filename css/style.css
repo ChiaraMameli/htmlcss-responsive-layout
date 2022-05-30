@@ -29,10 +29,19 @@
     padding-bottom: 30px;
 }
 
+.pt-30 {
+    padding-top: 30px;
+}
+
+
 .card {
     width: 100%;
     height: 100%;
-    border-radius: 10%;
+    border-radius: 20px;
+}
+
+.txt-cntr {
+    text-align: center;
 }
 
 /* DEMO */
@@ -51,8 +60,14 @@
     background-color: #FFF;
 }
 
+/* TESTIMONIALS  */
 
-/* MEDIA QWERY */
+#testimonials .card {
+    background-color: #9792E4;
+}
+
+
+/* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) {
     #demo .row .col {
@@ -78,5 +93,4 @@
     #planning .container {
         padding: 30px 30px 30px 30px;
     }
-
 }
