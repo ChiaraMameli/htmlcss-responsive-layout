@@ -237,6 +237,10 @@ blockquote {
     background-color: #FFF;
 }
 
+#benefits .bttn {
+    width: 8rem;
+}
+
 /* START */
 
 footer,
