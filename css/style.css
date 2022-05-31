@@ -8,6 +8,12 @@
 
 body {
     padding-top: 4rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
 }
 
 /* UTILS */
@@ -27,6 +33,12 @@ body {
     min-height: 400px;
     width: 100%;
     padding: 2rem;
+}
+
+.bttn {
+    display: block;
+    padding: 0.5rem 0.7rem;
+    border-radius: 2rem;
 }
 
 .pb-2 {
@@ -77,8 +89,16 @@ header .list {
 }
 
 header li {
-    padding-left: 1rem;
     padding-right: 2rem;
+}
+
+.fa-bars {
+    font-size: 1.6rem;
+}
+
+.list .bttn {
+    color: #000;
+    background-color: #FFF;
 }
 
 /* DEMO */
